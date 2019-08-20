@@ -17,12 +17,12 @@ It supports both python2 and python3.
 `-s` to specify the start point of the mask, note: it should be consistent with the mask.
 
 ```bash
-python mask_slice.py "?d?d?d" 1000?d
+python mask_slice.py "?d?d?d" 40
 # 00?d
 # 01?d
 # 02?d
 # 03?d
-python mask_slice.py "?d?d?d" 10 -s "03?d"
+python mask_slice.py "?d?d?d" 40 -s "03?d"
 # 03?d
 # 04?d
 # 05?d
